@@ -1,0 +1,13 @@
+{
+    "synapse" : {
+        "conn" : ["ba-prod-asw-ondemand.sql.azuresynapse.net","Bahriadmin","Xuqo1030$%123&"]
+    },
+    "blob_storage_account": {
+        "container": "sm-mips",
+        "processed_doc_path": "processed_docs",
+        "conn": "DefaultEndpointsProtocol=https;AccountName=baprodstorage;AccountKey=SdZJf+EnvBdUcUF7cC6fFdmVym2qjMRevVvdaAs7bS+10MsSVACmyx6tUCG8qDkW0dYdP9M+BH3YFvGkfW6ciQ==;EndpointSuffix=core.windows.net"
+    },
+        "model" :{
+        "path" : "modelConfig.json"
+    }
+}
