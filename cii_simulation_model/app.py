@@ -37,4 +37,6 @@ if __name__ == '__main__':
     logging.basicConfig(filename='logging.log', level=logging.ERROR,
                         format='%(asctime)s - [%(filename)s:%(lineno)d] - %(funcName)20s() %(message)s',
                         datefmt='%d-%b-%y %H:%M:%S')
-    serve(app, host='0.0.0.0', port=5002)
+    serve(app, host='0.0.0.0', port=5004)
+    # port (DEV,UAT,STG) = 5002
+    # port (PROD) = 5004
