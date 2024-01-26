@@ -66,7 +66,7 @@ def fscurve(vessel,draft,speed = None):
     try:
         # Building Fuel-Speed Curve Data
         res = []
-        for x in np.arange(10.0,20,0.5): 
+        for x in np.arange(10.0,20,0.1): 
             res.append({"CalcSpeed" : x, "Scored Labels":model["Speed_coefficient"]*(x**2)+model["Intercept"]})
             # res.append([x, model["Speed_coefficient"]*(x**2)+model["Intercept"]])
 
